@@ -48,8 +48,8 @@ const ENBody = () => {
           <p>・C/C++：</p>
           <p>・Java：source code visualizer, GUI app(Life game), compiler</p>
           <p>・Python：</p>
-          <p>・Javascript：簡単なwebサイトを作ることができる程度.</p>
-          <p>・HTML/CSS：簡単なwebサイトを作ることができる程度.</p>
+          <p>・Javascript：.</p>
+          <p>・HTML/CSS：.</p>
 
           <h2>Tools</h2>
           <p>・git</p>
