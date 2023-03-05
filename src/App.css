@@ -1,38 +1,144 @@
 .App {
-  text-align: center;
+  background-color: #f6f5f5;
+  width: 100%;
+  height: 150%;
+  font-size: 18px;
+  margin-bottom: 300px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  background-color: #f6f5f5;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  margin-top: -90px;
+  position: fixed;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: rgb(35, 105, 2);
   color: white;
+  /*position: fixed;*/
+  height: 70px;
+  width: 100%;
+  z-index: 10;
 }
 
-.App-link {
-  color: #61dafb;
+header .logo h3 {
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s;
+}
+
+nav ul li a:hover {
+  color: rgb(1, 0, 0);
+}
+
+
+.profile {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+.profile img {
+  margin-top: 50px;
+  width: 200px;
+  margin-bottom: 20.5px;
+}
+
+.profile h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+
+.giticon img {
+  margin-top: 30px;
+  width: 70px;
+}
+
+.giticon img:hover {
+  width: 90px;
+  margin-bottom: 0px;
+}
+
+.inline-block_test {
+  display: inline-block;      /*インラインブロック要素にする */
+  background-color:  #ccc;    /* 背景色指定 */
+  padding:  20px;             /* 余白指定 */
+  height: 100px;              /* 高さ指定 */
+}
+
+
+.elem h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: rgb(67, 78, 67);
+}
+
+.elem p {
+  font-size: 20px;
+}
+
+
+.port {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.port h2 {
+  font-weight: bold;
+}
+
+.port h2:after {
+  margin: 0 0 0 3px;
+  font-family: "Font Awesome 5 Free";
+  content: '\f35d';
+  font-weight: 900;
+}
+
+
+.port a {
+  color: black;
+  text-decoration: none;
+}
+
+.port a:hover {
+  font-size: 40px;
+  color: rgb(16, 11, 156);
+}
+
+p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.detail img {
+  width: 600px;
+}
+
+.append {
+  margin-top: 150px;
+}
+
+.append h1 {
+  color: rgb(67, 78, 67);
+  font-size: 60px;
 }
