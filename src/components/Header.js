@@ -12,10 +12,10 @@ const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">日本語</Link>
+                        <Link exact to="/">日本語</Link>
                     </li>
                     <li>
-                        <Link to="/contact">English</Link>
+                        <Link to="/EN">English</Link>
                     </li>
                 </ul>
             </nav>

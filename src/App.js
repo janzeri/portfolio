@@ -11,11 +11,9 @@ function App() {
       <div className="App">
           <Header />
 
-          <JP />
-
           <Switch>
             <Route exact path="/" component={JP}></Route>
-            <Route exact path="/contact" component={EN}></Route>
+            <Route exact path="/EN" component={EN}></Route>
           </Switch>
       </div>
     </Router>
