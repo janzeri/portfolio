@@ -28,6 +28,15 @@
     <title>Ryotaro Eguchi</title>
   </head>
   <body>
+    <script>
+      (function(){
+        const query = window.location.search;
+        if (query.startsWith('?p=')) {
+          const route = decodeURIComponent(query.substr(3));
+          window.history.replaceState(null, null, route);
+        }
+      })();
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
