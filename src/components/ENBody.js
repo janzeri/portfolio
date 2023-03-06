@@ -21,7 +21,7 @@ const ENBody = () => {
           <div className='port'>
             <h2><a href="https://github.com/janzeri/Hit-Blow-Game">・Hit & Blow Game</a></h2>
             <p>Hit and Blow game for Arduino</p>
-            <p>implemented as a freeform assignment in a university course</p>
+            <p>implemented for a freeform assignment in a university course</p>
             <p>Language：Arduino（C/C++）</p>
           </div>
 

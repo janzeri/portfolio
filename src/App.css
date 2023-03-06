@@ -64,7 +64,7 @@ nav ul li a:hover {
 }
 
 .profile h1 {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -88,7 +88,7 @@ nav ul li a:hover {
 
 
 .elem h1 {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bold;
   color: rgb(67, 78, 67);
 }
@@ -140,5 +140,5 @@ p {
 
 .append h1 {
   color: rgb(67, 78, 67);
-  font-size: 60px;
+  font-size: 50px;
 }
