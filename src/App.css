@@ -142,13 +142,15 @@ nav ul li a:hover {
   color: rgb(16, 11, 156);
 }
 
+
 p {
   margin-top: 4px;
   margin-bottom: 4px;
 }
 
 .detail img {
-  width: 600px;
+  max-width: 600px;
+  width: 80%;
 }
 
 .append {
