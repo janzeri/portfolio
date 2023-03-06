@@ -12,8 +12,8 @@ function App() {
           <Header />
 
           <Switch>
-            <Route exact path="/" component={JP}></Route>
-            <Route exact path="/EN" component={EN}></Route>
+            <Route exact path="/portfolio/" component={JP}></Route>
+            <Route exact path="/portfolio/EN" component={EN}></Route>
           </Switch>
       </div>
     </Router>
