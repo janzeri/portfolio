@@ -12,7 +12,7 @@ const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/portfolio">日本語</Link>
+                        <Link to="/portfolio/">日本語</Link>
                     </li>
                     <li>
                         <Link to="/portfolio/EN">English</Link>
