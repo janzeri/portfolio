@@ -86,6 +86,10 @@ nav ul li a:hover {
   height: 100px;              /* 高さ指定 */
 }
 
+.elem {
+  text-align: center;
+  margin-bottom: 140px;
+}
 
 .elem h1 {
   font-size: 50px;
@@ -93,8 +97,21 @@ nav ul li a:hover {
   color: rgb(67, 78, 67);
 }
 
+.elem h2 {
+  font-weight: bold;
+}
+
 .elem p {
   font-size: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.text {
+  display: inline-block;
+  text-align: left;
 }
 
 

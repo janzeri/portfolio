@@ -21,14 +21,14 @@ const ENBody = () => {
           <div className='port'>
             <h2><a href="https://github.com/janzeri/Hit-Blow-Game">・Hit & Blow Game</a></h2>
             <p>Hit and Blow game for Arduino</p>
-            <p>implemented for a freeform assignment in a university course</p>
+            <p>implemented for a freeform assignment in an university course</p>
             <p>Language：Arduino（C/C++）</p>
           </div>
 
           <div className='port'>
             <h2><a href="https://github.com/janzeri/PascalCasl-Compiler">・PascalCasl-Compiler</a></h2>
             <p>pascal to casl compiler</p>
-            <p>implemented as an assignment in a university course and updated</p>
+            <p>implemented for an assignment in an university course and updated</p>
             <p>Language：Java</p>
           </div>
 
@@ -45,14 +45,17 @@ const ENBody = () => {
         <div className='elem'>
           <h1>Skills</h1>
           <h2>Programming Language</h2>
-          <p>・C/C++：</p>
-          <p>・Java：source code visualizer, GUI app(Life game), compiler</p>
-          <p>・Python：</p>
-          <p>・Javascript：.</p>
-          <p>・HTML/CSS：.</p>
-
+          <div className='center'>
+            <p className='text'>・C/C++：Experienced in developing TCP/IP communication programs and terminal game. Most skillful.<br/>
+            ・Java：Experienced in develping a source code analizer/visualizer, a GUI app(Life game), a compiler.<br/>
+            ・Python：Used for drawing graphs and simple machine learning.<br/>
+            ・Javascript：Able to create simple web sites.<br/>
+            ・HTML/CSS：Able to create simple web sites.<br/>
+            ・VHDL：Experiened in a simpple cpu implementation.</p>
+          </div>
           <h2>Tools</h2>
-          <p>・git</p>
+          <p className='text'>・git：Experienced in team development.<br/>
+          ・Arduino：Experienced in implementing a calculator and a simple game.</p>
         </div>
 
         <div className='append'>
