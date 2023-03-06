@@ -56,7 +56,7 @@ const ENBody = () => {
               　　　　　which is used in pc games.<br/>
               Improvements：It's time-consuming to press enter every time.<br/>
               　　　　　　　　Numbers are same color and difficult to read.<br/>
-              　　　　　　　　Add animation for the movement of numbers.<br/>
+              　　　　　　　　Want to add animation for the movement of numbers.<br/>
               　　　　　　　　Want to be able to save high scores.<br/>
               Extra：Implement as a web app.
             </p>
